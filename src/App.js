@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
 import AddTransaction from "./components/AddTransaction";
-import TransactionList from "./components/AddTransaction";
+import TransactionList from "./components/TransactionList"; // Corrected import
 import Summary from "./components/Summary";
 import Chart from "./components/Chart";
 

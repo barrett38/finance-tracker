@@ -2,7 +2,6 @@ import React from "react";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 
-// Register the components
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 function Chart({ transactions }) {
@@ -18,11 +17,7 @@ function Chart({ transactions }) {
     datasets: [
       {
         data,
-        backgroundColor: [
-          "#FF6384",
-          "#36A2EB",
-          // Add more colors if needed
-        ],
+        backgroundColor: ["#FF6384", "#36A2EB"],
       },
     ],
   };
